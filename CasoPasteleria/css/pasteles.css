@@ -1,0 +1,119 @@
+
+
+/*fondo*/
+.container-fluid{
+  background-color: #191716;
+
+}
+
+
+/*Titulo izquierda*/
+.nav-title{
+    margin-left: 10px;
+    color: #cbb18d;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+}
+
+
+
+/*Links de barra*/
+.nav-link{
+    font-family:'Dancing Script', cursive;
+    color: white;
+    
+}
+/*Cuando se pasa por los items del menu principal*/
+.nav-link:hover{
+    font-weight: bolder;
+    color: #cbb18d;
+}
+.nav-link.active{
+    background-color: transparent !important;
+    color: #cbb18d !important;
+}
+
+
+/*fondo*/
+
+body {
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+
+.copyright {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: white;
+  font-size: 2rem;
+}
+
+.icons i {
+  margin: 0.5rem;
+}
+
+
+.page-footer {
+  background-color: #191716 !important;
+}
+
+
+
+
+
+
+
+.my-card {
+  width: 20rem;
+  height: 34.5rem;
+  background-color: #191716;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 2rem;
+}
+
+.my-card-title {
+  color: var(--custom-white);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.my-card-content {
+  color: #cbb18d;
+  padding: 0 0.8rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.my-card-text {
+  color: var(--custom-white);
+}
+
+
+.my-card-price {
+  color: #9c525d;
+}
+
+
+
+.subtitle {
+  color: #cbb18d;
+}
+
+

@@ -1,0 +1,58 @@
+body,html{
+    height: 85%;
+}
+
+
+
+/*Titulo izquierda*/
+.nav-title{
+    margin-left: 10px;
+    color: #cbb18d;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+}
+
+
+
+
+
+
+
+/*Links de barra*/
+.nav-link{
+    font-family:'Dancing Script', cursive;
+    color: white;
+    
+}
+/*Cuando se pasa por los items del menu principal*/
+.nav-link:hover{
+    font-weight: bolder;
+    color: #cbb18d;
+}
+.nav-link.active{
+    background-color: transparent !important;
+    color: #cbb18d !important;
+}
+
+
+
+
+
+/*Slogan principal*/
+.body-slogan-title{
+    font-family:'Dancing Script', cursive;
+    color: white;   
+    font-weight: bold;
+    font-size: 500%; 
+}
+
+
+
+
+.bg{
+    background-image: url("../src/fondo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

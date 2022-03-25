@@ -1,0 +1,247 @@
+
+
+/*fondo*/
+.container-fluid{
+  background-color: #191716;
+
+}
+
+
+/*Titulo izquierda*/
+.nav-title{
+    margin-left: 10px;
+    color: #cbb18d;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+}
+
+
+
+/*Links de barra*/
+.nav-link{
+    font-family:'Dancing Script', cursive;
+    color: white;
+    
+}
+/*Cuando se pasa por los items del menu principal*/
+.nav-link:hover{
+    font-weight: bolder;
+    color: #cbb18d;
+}
+.nav-link.active{
+    background-color: transparent !important;
+    color: #cbb18d !important;
+}
+
+
+/*fondo*/
+
+body {
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+
+.copyright {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: white;
+  font-size: 2rem;
+}
+
+.icons i {
+  margin: 0.5rem;
+}
+
+
+.page-footer {
+  background-color: #191716 !important;
+  margin-top: 20em;
+}
+
+
+
+
+
+
+
+/*Tables de las páginas*/
+.table-item-order{
+    color: rgb(136, 136, 136);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.order-completed{
+color: green;
+}
+
+.order-ready{
+    color: rgb(192, 133, 143);
+}
+
+
+
+
+
+
+
+
+
+
+
+.cake-details{
+    height: 60%;   
+}
+
+
+.cake-option-title{
+    font-family:'Dancing Script', cursive;
+    color: rgb(192, 133, 143);
+    font-size: medium;
+}
+
+.cake-option-title-cart{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 133, 143);
+    font-size: small;
+}
+
+.cake-description{
+    color: #3d3c3c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3 ; 
+    -webkit-box-orient: vertical;
+}
+
+.cake-description-cart{
+    color: #3d3c3c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2 ; 
+    -webkit-box-orient: vertical;
+}
+
+.img-cake-details{
+    height: 300px;
+    
+}
+
+.img-cake-details-cart{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+.btn-add-patisserie{
+    background-color: rgb(192, 133, 143);
+    color: white;
+}
+
+.btn-add-patisserie:hover{
+    background-color: rgb(247, 226, 230);
+    color: #583111;
+}
+
+.btn-add-adorno{
+    background-color: transparent;
+    border: solid 1px rgb(192, 133, 143);
+    color: rgb(192, 133, 143);
+    font-size: x-small;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-left: 5px;
+    width: auto;
+    height: 20px;
+    text-align: center;
+
+}
+
+.btn-add-adorno:hover{
+    color: white;
+    background-color: rgb(192, 133, 143);
+}
+
+
+
+.cake-num-adornos{
+    color: rgb(192, 133, 143);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+/*Para poner mask a un div para textos en imagenes*/
+.mask-container{
+    position: relative;
+    text-align: center;
+}
+
+.mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mask:hover{
+    background-color: rgba(192, 133, 143, 0.63);
+    box-shadow: 5px 5px 15px rgb(192, 133, 143);
+}
+
+.mask-right-top{
+    position: absolute;
+    padding: 0;
+    top: 0px;
+    right: 0px;
+    margin-right: -25%;
+}
+
+
+
+
+
+
+
+
+#modal-order-details.modal.show{
+    display: block;
+    width: 600px;
+}
+
+

@@ -1,0 +1,86 @@
+
+
+/*fondo*/
+.container-fluid{
+  background-color: #191716;
+
+}
+
+
+/*Titulo izquierda*/
+.nav-title{
+    margin-left: 10px;
+    color: #cbb18d;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+}
+
+
+
+/*Links de barra*/
+.nav-link{
+    font-family:'Dancing Script', cursive;
+    color: white;
+    
+}
+/*Cuando se pasa por los items del menu principal*/
+.nav-link:hover{
+    font-weight: bolder;
+    color: #cbb18d;
+}
+.nav-link.active{
+    background-color: transparent !important;
+    color: #cbb18d !important;
+}
+
+
+/*fondo*/
+
+body {
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+
+.copyright {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: white;
+  font-size: 2rem;
+}
+
+.icons i {
+  margin: 0.5rem;
+}
+
+
+.page-footer {
+  background-color: #191716 !important;
+}
+
+
+
+
+
+
+
+.cake-type-title{
+    color: #9c525d;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+
+}
