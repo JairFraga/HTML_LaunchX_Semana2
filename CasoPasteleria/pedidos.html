@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--Metadatos de cache y de escala -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+
+
+	<!-- Titulo de la pagina -->
+	<title>Sweet Cake</title>
+
+
+    <!-- links a elementos externos -->
+    <!-- icono de la pagina -->
+	<link rel="icon" href="src/icono.png" type="image/x-icon">
+
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+
+    <!-- ICONOS -->
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./src/icon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/8dbc753c5a.css" />
+
+
+    <!--Estilos de bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!--Scripts de boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+	<!--hojas de estilo personales -->
+	<link rel="stylesheet" href="css/pedidos.css">
+
+
+</head>
+
+
+
+<body >
+	
+
+	<section class="container-fluid h-100">
+
+
+		<!--barra principal -->
+		<header class="container d-flex flex-wrap justify-content-center py-3 mb-4">
+				
+				<!-- Letras en barra de navegacion -->
+				<a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <span class="fs-4 nav-title">Sweet Cake</span>
+                </a>
+
+
+
+               
+				<!-- lista de links en barra de navegacion -->
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link " aria-current="page">Inicio</a></li>
+                    <li class="nav-item"><a href="pasteles.html" class="nav-link">Pasteles</a></li>
+                    <li class="nav-item"><a href="pedidos.html" class="nav-link active">Pedidos</a></li>
+                    <li class="nav-item"><a href="insumos.html" class="nav-link">Insumos</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Cantacto</a></li>
+                </ul>
+		</header>
+	</section>
+
+
+
+
+        <div id="modal-order-details" class="modal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title cursive">Carlos Lopez Herrera</h3>
+                 
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                <div class="modal-body">
+
+                    <div class="modal-lg modal-dialog-scrollable wrapple">
+                       
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card mb-3" >
+                                        <div class="row g-0">
+                                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                                <img  src="src/p1.jpg" class="img-fluid img-cake-details-cart " alt="...">
+                                            </div>
+
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title cursive">Pastel de crema de cacahuate</h5>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Sabores</h2>
+                                                            <h3 class="cake-description">Chocolate, crema de cacahuate</h3>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Adornos</h2>
+                                                             <h3 class="cake-description">macarrones , chocolate</h3>
+
+                                                    
+                                                        </div>
+                                                    </div>
+                                                        
+                                                        
+                                                    <div class="row">
+                                                        <hr>
+                                                        <div class="col-sm-12 d-flex justify-content-end align-items-end">
+                                                            <span>Total Pieza 380.00 MXN</span>
+                                                
+                                                        </div>
+                                            
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="card mb-3" >
+                                        <div class="row g-0">
+                                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                                <img  src="src/p2.jpg" class="img-fluid img-cake-details-cart " alt="...">
+                                            </div>
+
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title cursive">Tarta Victoria</h5>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Sabores</h2>
+                                                            <h3 class="cake-description">Fresa, glaseado</h3>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Adornos</h2>
+                                                             <h3 class="cake-description">Fresas </h3>
+
+                                                    
+                                                        </div>
+                                                    </div>
+                                                        
+                                                        
+                                                    <div class="row">
+                                                        <hr>
+                                                        <div class="col-sm-12 d-flex justify-content-end align-items-end">
+                                                            <span>Total Pieza 380.00 MXN</span>
+                                                
+                                                        </div>
+                                            
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="card mb-3" >
+                                        <div class="row g-0">
+                                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                                <img  src="src/p3.jpg" class="img-fluid img-cake-details-cart " alt="...">
+                                            </div>
+
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title cursive">Blacberry forest</h5>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Sabores</h2>
+                                                            <h3 class="cake-description">Frambuesa, chocolate </h3>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h2 class="cake-option-title-cart">Adornos</h2>
+                                                             <h3 class="cake-description">Frambuesa</h3>
+
+                                                    
+                                                        </div>
+                                                    </div>
+                                                        
+                                                        
+                                                    <div class="row">
+                                                        <hr>
+                                                        <div class="col-sm-12 d-flex justify-content-end align-items-end">
+                                                            <span>Total Pieza 380.00 MXN</span>
+                                                
+                                                        </div>
+                                            
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                       
+                    </div>
+                </div>
+                <div class="modal-footer d-block">
+                    <div class="row">
+                        <div class="col-sm-6 d-flex justify-content-start align-items-start">
+                            <p class="cursive">Total a Pagar 1,140 MXN</p>
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-end align-items-end">
+                            <button type="submit" class="btn btn-add-patisserie" >Entregado</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="container">
+            <table class="table table-striped table-dark table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col"># Pedido</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Piezas</th>
+                    <th scope="col">Fecha de pedido</th>
+                    <th scope="col">Ver</th>
+                    <th scope="col">Estado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-236345827</th>
+                    <td class="table-item-order">Carlos Lopez Herrera</td>
+                 
+                    <td class="table-item-order">carloslop@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg> Ver
+                    </a></td>
+                    <td class="table-item-order order-completed">Entregado</td>
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-236345827</th>
+                    <td class="table-item-order">Gilberto Rodriguez Ortega</td>
+                 
+                    <td class="table-item-order">gilbertorodriguez@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg> Ver
+                    </a></td>
+                    <td class="table-item-order order-completed">Entregado</td>
+                  </tr>
+
+
+
+
+
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-435149232</th>
+                    <td class="table-item-order">Emilio Cabrera Hernandez</td>
+                 
+                    <td class="table-item-order">emiherr@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                              </svg> Ver
+                        </a>
+                       
+                    </td>
+                    <td class="table-item-order order-ready">Listo para entrega</td>
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-236345827</th>
+                    <td class="table-item-order">Diego Luna Roman</td>
+                 
+                    <td class="table-item-order">diegoluna@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg> Ver
+                    </a></td>
+                    <td class="table-item-order order-completed">Entregado</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-712494235</th>
+                    <td class="table-item-order">Daniela Lujan Flores</td>
+                 
+                    <td class="table-item-order">danielaflor@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg> Ver
+                    </a></td>
+                    <td class="table-item-order">Preparando</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" class="table-item-order">ORDER-236345827</th>
+                    <td class="table-item-order">Andrea Avila villagomez</td>
+                 
+                    <td class="table-item-order">andiavila@gmail.com</td>
+                    <td class="table-item-order">7774523659</td>
+                    <td class="table-item-order">7 piezas</td>
+                    <td class="table-item-order">02/02/2022</td>
+                    <td class="table-item-order">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-order-details">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye text-cake" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg> Ver
+                    </a></td>
+                    <td class="table-item-order order-completed">Entregado</td>
+                  </tr>
+
+                 
+                </tbody>
+              </table>
+        </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row center">
+          <div class="col m4 s12">
+            <p class="copyright">© 2022 Sweet Cake</p>
+          </div>
+          <div class="col m4 s12">
+
+          </div>
+          <div class="col m4 s12">
+            <div class="icons">
+              <p>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+
+
+
+
+
+
+
+
+    
+        <script src="js/modals.js"></script>
+
+
+</body>
+
+
+
+</html>
